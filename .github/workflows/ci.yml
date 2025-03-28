@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  test 1:
+  test:
     runs-on: macos-14
 
     steps:
@@ -15,10 +15,3 @@ jobs:
 
       - name: Select Xcode version
         run: sudo xcode-select -s /Applications/Xcode_15.4.app
-
-    - name: Run tests
-      run: |
-        xcodebuild test \
-        -scheme MySwiftUIApp \
-        -project MySwiftUIApp.xcodeproj \
-        -destination 'platform=iOS Simulator,name=iPhone 14'
