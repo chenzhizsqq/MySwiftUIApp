@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -22,16 +22,8 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3303EDD02D9661000024D7B5 /* MySwiftUIApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MySwiftUIApp;
-			sourceTree = "<group>";
-		};
-		336C953C2D968EFD0044E358 /* MySwiftUIAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MySwiftUIAppTests;
-			sourceTree = "<group>";
-		};
+		3303EDD02D9661000024D7B5 /* MySwiftUIApp */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MySwiftUIApp; sourceTree = "<group>"; };
+		336C953C2D968EFD0044E358 /* MySwiftUIAppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MySwiftUIAppTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +130,7 @@
 				};
 			};
 			buildConfigurationList = 3303EDC92D9661000024D7B5 /* Build configuration list for PBXProject "MySwiftUIApp" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,7 +139,6 @@
 			);
 			mainGroup = 3303EDC52D9661000024D7B5;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3303EDCF2D9661000024D7B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
