@@ -1,18 +1,21 @@
-
+# 工作流程名称，将显示在 GitHub Actions 页面上
 name: SwiftUI CI
 
+# 指定何时触发这个流程
 on:
-  push:
+  push:                # 当 push 到 main 分支时触发
     branches: [ main ]
-  pull_request:
+  pull_request:        # 当有人向 main 分支发起 PR 时触发
     branches: [ main ]
 
 jobs:
-  test:
-    runs-on: macos-14
+  test:                # 定义一个名为 test 的任务
+    runs-on: macos-14  # 在 macOS 14 的虚拟机上运行（带 Xcode）
 
     steps:
+      # 第一步：从 GitHub 拉取代码
       - uses: actions/checkout@v3
 
+      # 第二步：手动指定使用的 Xcode 版本
       - name: Select Xcode version
         run: sudo xcode-select -s /Applications/Xcode_15.4.app
